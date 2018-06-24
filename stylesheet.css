@@ -1,0 +1,268 @@
+		@keyframes move-twink-back{
+			from {background-position: 0 0;}
+			to {background-position: -10000px 5000px;}
+		}
+		@-webkit-keyframes move-twink-back{
+			from {background-position: 0 0;}
+			to {background-position: -10000px 5000px;}
+		}
+		@-moz-keyframes move-twink-back{
+			from {background-position: 0 0;}
+			to {background-position: -10000px 5000px;}
+		}
+		@-ms-keyframes move-twink-back{
+			from {background-position: 0 0;}
+			to {background-position: -10000px 5000px;}
+		}
+		.stars, .twinkling{
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			width: 100%;
+			height: 100%;
+			display: block;
+		}
+		.stars{
+			background: #000 url(stars.png) repeat top center;
+			z-index: -1;
+		}
+		.twinkling{
+			background: url(twinkling.png) repeat top center;
+			z-index: 0;
+			-moz-animation: move-twink-back 200s linear infinite;
+			-ms-animation: move-twink-back 200s linear infinite;
+			-o-animation: move-twink-back 200s linear infinite;
+			-webkit-animation: move-twink-back 200s linear infinite;
+			animation: move-twink-back 200s linear infinite;
+		}
+		h1{
+			position: absolute;
+			color: white;
+			z-index: 3;
+			top: 5%;
+			left: 32%;
+			transform: translate(-5%, -32%);
+			font-size: 50px;
+			font-family: "Satisfy", cursive;
+			text-decoration: underline;
+			border: 2px solid white;
+			padding: 12px;
+		}
+		.dot1,.dot2,.dot3,.dot4,.dot5,.dot6,.dot7,.dot8,.dot9,.dot10,.dot11,.dot12,.dot13,.dot14,.dot15,.dot16,.dot17,.dot18,.dot19,.dot20,.dot21,.dot22,.dot23,.dot24,.dot25,.dot26,.dot27,.dot28{
+			height: 5.5px;
+			width: 5.5px;
+			background-color: white;
+			border-radius: 50%;
+			display: inline-block;
+			position: absolute;
+			z-index: 2;
+		}
+		.dot1{
+			top: 350px;
+			left: 300px;
+		}
+		.dot2{
+			top: 320px;
+			left: 330px;
+		}
+		.dot3{
+			top: 180px;
+			left: 380px;
+		}
+		.dot4{
+			top: 150px;
+			left: 380px;
+		}
+		.dot5{
+			top: 178px;
+			left: 415px;
+		}
+		.dot6{
+			top: 200px;
+			left: 425px;
+		}
+		.dot7{
+			top: 275px;
+			left: 400px;
+		}
+		.dot8{
+			top: 330px;
+			left: 410px;
+		}
+		.dot9{
+			top: 345px;
+			left: 400px;
+		}
+		.dot10{
+			top: 370px;
+			left: 420px;
+		}
+		.dot11{
+			top: 380px;
+			left: 470px;
+		}
+		.dot12{
+			top: 400px;
+			left: 530px;
+		}
+		.dot13{
+			top: 420px;
+			left: 550px;
+		}
+		.dot14{
+			top: 365px;
+			left: 325px;
+		}
+		.dot15{
+			top: 350px;
+			left: 340px;
+		}
+		.dot16{
+			top: 420px;
+			left: 700px;
+		}
+		.dot17{
+			top: 370px;
+			left: 730px;
+		}
+		.dot18{
+			top: 350px;
+			left: 760px;
+		}
+		.dot19{
+			top: 300px;
+			left: 770px;
+		}
+		.dot20{
+			top: 200px;
+			left: 810px;
+		}
+		.dot21{
+			top: 210px;
+			left: 780px;
+		}
+		.dot22{
+			top: 190px;
+			left: 750px;
+		}
+		.dot23{
+			top: 150px;
+			left: 770px;
+		}
+		.dot24{
+			top: 240px;
+			left: 850px;
+		}
+		.dot25{
+			top: 220px;
+			left: 890px;
+		}
+		.dot26{
+			top: 270px;
+			left: 880px;
+		}
+		.dot27{
+			top: 300px;
+			left: 810px;
+		}
+		.dot28{
+			top: 390px;
+			left: 820px;
+		}
+		#myCanvas{
+	
+		}
+		.header{
+			color: white;
+			z-index: 99;
+			font-family: 'Shadows Into Light', cursive;
+			position: absolute;
+			font-size: 50px;
+			left: 30%;
+			transform: translate(0, -30%);
+		}
+		.overlay{
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: rgba(0, 0, 0, 0.7);
+			transition: opacity 500ms;
+			visibility: hidden;
+			opacity: 0;
+		}
+		.overlay:target{
+			visibility: visible;
+			opacity: 1;
+		}
+		.overlay1{
+			position: fixed;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			background: rgba(0, 0, 0, 0.7);
+			transition: opacity 500ms;
+			visibility: hidden;
+			opacity: 0;
+		}
+		.overlay1:target{
+			visibility: visible;
+			opacity: 1;
+		}
+		.draco-popup, .canis-popup{
+			padding: 20px;
+			background-color: white;
+  			border-radius: 5px;
+  			transition: all 5s ease-in-out;
+  			position: absolute;
+  			top: 50%;
+  			left: 50%;
+  			transform: translate(-50%, -50%);
+		}
+		.draco-popup h2, .canis-popup h2{
+			color: #333;
+			font-family: 'Satisfy', cursive;
+		}
+		.draco-button, .canis-button{
+			color: white;
+			font-size: 25px;
+			font-family: 'Satisfy', cursive;
+			position: absolute;
+			border: 3px solid white;
+			border-radius: 5px;
+			padding: 5px;
+			background: transparent;
+			text-align: center;
+			text-decoration: none;
+		}
+		.draco-button{
+			width: 70px;
+			top: 80%;
+			left: 30%;
+		}
+		.canis-button{
+			top: 80%;
+			right: 25%;
+		}
+		.draco-button:hover, .canis-button:hover{
+			color: black;
+			background-color: white;
+		}
+		.content, .content1{
+			font-family: 'Satisfy', cursive;
+		}
+		.close{
+			position: absolute;
+			top: 20px;
+			right: 30px;
+			font-size: 30px;
+			color: black;
+			text-decoration: none;
+		}
+		.close:hover{
+			font-weight: bolder;
+		}

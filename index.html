@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+	<title>Constellations in the sky</title>
+</head>
+<body>
+	<h1>My Favorite Constellations</h1>
+	<!--bacground-->
+	<div class="stars"></div>
+	<div class="twinkling"></div>
+
+	<!--Constelllation Draco-->
+	<div class="draco">
+		<span class="dot1"></span>
+		<span class="dot2"></span>
+		<span class="dot3"></span>
+		<span class="dot4"></span>
+		<span class="dot5"></span>
+		<span class="dot6"></span>
+		<span class="dot7"></span>
+		<span class="dot8"></span>
+		<span class="dot9"></span>
+		<span class="dot10"></span>
+		<span class="dot11"></span>
+		<span class="dot12"></span>
+		<span class="dot13"></span>
+		<span class="dot14"></span>
+		<span class="dot15"></span>
+	</div>
+	<div>
+		<a class="draco-button" href="#popup">Draco</a>
+	</div>
+	<div id="popup" class="overlay">
+		<div class="draco-popup">
+			<h2>Draco</h2>
+			<a class="close" href="#">&times;</a>
+			<div class="content">Draco is a constellation in the far northern sky. Its name is Latin for dragon. Dragons in Greek mythology that may have inspired the constellation's name include Ladon, the dragon who guarded the golden apples of the Hesperides It was one of the 48 constellations listed by the 2nd century astronomer Ptolemy, and remains one of the 88 modern constellations today. The north pole of the ecliptic is in Draco. Draco is circumpolar (that is, never setting), and can be seen all year from northern latitudes. Draco also features several interacting galaxies and galaxy clusters. 
+				<br>
+				<br>
+				<a href="https://en.wikipedia.org/wiki/Draco_(constellation)" target="_blank" style="text-align: center;">Know more about Draco</a>
+			</div>
+		</div>
+	</div>
+
+	<!--Constellation Canis-major-->
+	<div class="canis-major">
+		<span class="dot16"></span>
+		<span class="dot17"></span>
+		<span class="dot18"></span>
+		<span class="dot19"></span>
+		<span class="dot20"></span>
+		<span class="dot21"></span>
+		<span class="dot22"></span>
+		<span class="dot23"></span>
+		<span class="dot24"></span>
+		<span class="dot25"></span>
+		<span class="dot26"></span>
+		<span class="dot27"></span>
+		<span class="dot28"></span>
+	</div>
+	<div>
+		<a class="canis-button" href="#popup1">Canis-Major</a>
+	</div>
+	<div id="popup1" class="overlay">
+		<div class="canis-popup">
+			<h2>Canis</h2>
+			<a class="close" href="#">&times;</a>
+			<div class="content1">Canis Major is a constellation in the southern celestial hemisphere. In the second century, it was included in Ptolemy's 48 constellations, and is counted among the 88 modern constellations. Its name is Latin for "greater dog" in contrast to Canis Minor, the "lesser dog"; both figures are commonly represented as following the constellation of Orion the hunter through the sky. The Milky Way passes through Canis Major and several open clusters lie within its borders, most notably M41.
+				<br>
+				<br>
+				<a href="https://en.wikipedia.org/wiki/Canis_Major" target="_blank">Know more about Canis-Major</a>
+			</div>
+		</div>
+	</div>
+
+	<!--Canvas for constellations-->
+	<div>
+		<canvas class="mycanvas" id="myCanvas" width="900" height="500"></canvas>
+	</div>
+	
+	<!--connecting dots in constellations-->
+	<script src="myjavascript.js"></script>
+	
+</body>
+</html>
